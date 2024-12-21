@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simpleDomProject</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen">
+  <section class="flex flex-col md:flex-row h-full">
+    <div class="md:w-1/4 bg-white shadow-lg pl-5 pt-3 ">
+      <h1 class="font-bold text-lg">person</h1>
+      <ul id="people-list" class="space-y-2 pb-2"></ul>
+    </div>
+    <div class="md:w-3/4  p-4">
+      <div id="person-info" class="hidden p-2 bg-white rounded-lg shadow-lg"></div>
+      <div id="no-selection" class="text-gray-500"> select a person to see the information</div>
+    </div>
+  </section >
+  
+  <script src="main.js"></script>
+</body>
+</html>
